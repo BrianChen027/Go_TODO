@@ -46,6 +46,7 @@ func main() {
 			fmt.Fprintln(os.Stderr, err.Error())
 			os.Exit(1)
 		}
+
 	default:
 		fmt.Fprintln(os.Stdout, "invalid command")
 		os.Exit(0)
