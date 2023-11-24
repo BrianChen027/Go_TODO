@@ -16,20 +16,20 @@
 #### ------------------------------------ The Tool reminder when using Go ------------------------------------
 
 
-// 查看go目前版本 Check the current version of Go<br/>
+查看go目前版本 Check the current version of Go<br/>
 go version <br/>
-// 查看當前go的環境變數 View the current Go environment variables<br/>
+查看當前go的環境變數 View the current Go environment variables<br/>
 go env <br/>
-// 列出目前全部安裝的依賴函式庫 List all currently installed dependencies<br/>
+列出目前全部安裝的依賴函式庫 List all currently installed dependencies<br/>
 go list <br/>
-// 編輯並執行go程序 Edit and run a Go program<br/>
+編輯並執行go程序 Edit and run a Go program<br/>
 go run <br/>
-// 自動更新依賴函式庫 Automatically update dependencies <br/>
+自動更新依賴函式庫 Automatically update dependencies <br/>
 go get -u <br/>
-// 增加缺少的module， 刪除無用的module Add missing modules, remove unused modules<br/>
+增加缺少的module， 刪除無用的module Add missing modules, remove unused modules<br/>
 go mod tidy <br/>
-// 建立mod檔案,它是管理依賴關係的一個檔案 create the go.mod for the project <br/>
+建立mod檔案,它是管理依賴關係的一個檔案 create the go.mod for the project <br/>
 go mod init github.com/BrianChen027/Go_TODO <br/>
 go mod tidy <br/>
-// 用於編譯 Go 程序 to build the project after modifing it, this can make sure it works <br/>
+用於編譯 Go 程序 to build the project after modifing it, this can make sure it works <br/>
 go build ./cmd/todo <br/>
