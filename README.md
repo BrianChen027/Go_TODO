@@ -28,8 +28,8 @@ go run <br/>
 go get -u <br/>
 // 增加缺少的module， 刪除無用的module Add missing modules, remove unused modules<br/>
 go mod tidy <br/>
-// 建立mod檔案,它是管理依賴關係的一個檔案 create the go.mod for the project
-go mod init github.com/BrianChen027/Go_TODO
-go mod tidy
-// 用於編譯 Go 程序 to build the project after modifing it, this can make sure it works
-go build ./cmd/todo
+// 建立mod檔案,它是管理依賴關係的一個檔案 create the go.mod for the project <br/>
+go mod init github.com/BrianChen027/Go_TODO <br/>
+go mod tidy <br/>
+// 用於編譯 Go 程序 to build the project after modifing it, this can make sure it works <br/>
+go build ./cmd/todo <br/>
