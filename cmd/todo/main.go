@@ -17,6 +17,7 @@ func main() {
 
 	add := flag.Bool("add", false, "add a new todo")
 	complete := flag.Int("complete", 0, "mark a todo as completed")
+	del := flag.Int("del", 0, "delete a todo")
 
 	flag.Parse()
 
@@ -46,7 +47,17 @@ func main() {
 			fmt.Fprintln(os.Stderr, err.Error())
 			os.Exit(1)
 		}
-
+	case *del > 0:
+		err := todos.Delete(*del)
+		if err != nil {
+			fmt.Fprintln(os.Stderr, err.Error())
+			os.Exit(1)
+		}
+		err = todos.Store(todoFile)
+		if err != nil {
+			fmt.Fprintln(os.Stderr, err.Error())
+			os.Exit(1)
+		}
 	default:
 		fmt.Fprintln(os.Stdout, "invalid command")
 		os.Exit(0)
