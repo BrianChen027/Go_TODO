@@ -102,5 +102,5 @@ func getInput(r io.Reader, args ...string) (string, error) {
 		return "", errors.New("empty todo is not allowed")
 	}
 
-	return scanner.Text(), nil
+	return text, nil
 }
