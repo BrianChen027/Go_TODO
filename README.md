@@ -6,6 +6,7 @@
 
 ## Once the task is completed, us "./todo -complete=2" to change the task's status to Done
 <img width="815" alt="截圖 2023-11-24 下午4 07 59" src="https://github.com/BrianChen027/Go_TODO/assets/97871497/98b2f71c-cb02-4bfe-bd6e-227822410b09">
+
 ## If you want to add the task or delete the task, use "./todo -add "task1"" and "./todo -del=6" 
 <img width="808" alt="截圖 2023-11-24 下午4 03 46" src="https://github.com/BrianChen027/Go_TODO/assets/97871497/cfedfe0a-7c72-4a1e-94ae-757d0c276671">
 
