@@ -5,10 +5,12 @@ This Go program is a to-do application designed to manage tasks, featuring funct
 
 ### main.go
 Features
-    1.Flag Handling: Utilizes the flag package to parse command-line arguments. These flags include adding a new to-do (add), marking a to-do as completed (complete), deleting a to-do (del), and listing all to-dos (list).
-    2.
-    3.
-    4.
+    1.**Flag Handling**: Utilizes the flag package to parse command-line arguments. These flags include adding a new to-do (add), marking a to-do as completed (complete), deleting a to-do (del), and listing all to-dos (list).
+    2.**To-Do Operations**: Performs different operations on to-dos, such as add, complete, delete, or list, based on the command-line arguments.
+    3.**Error Handling**: If errors occur during operations, the program prints them to standard error output and exits.
+    4.**User Input**: If no to-do is directly specified for the add operation, the program reads the to-do item from standard input.
+
+
 
 
 ## This is how the TODO table shows
