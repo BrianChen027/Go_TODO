@@ -5,30 +5,30 @@ This Go program is a to-do application designed to manage tasks, featuring funct
 
 ## main.go
 ### Features <br/>
-    1Flag Handling: Utilizes the flag package to parse command-line arguments. These flags include adding a new to-do (add), marking a to-do as completed (complete), deleting a to-do (del), and listing all to-dos (list).
-    2.To-Do Operations: Performs different operations on to-dos, such as add, complete, delete, or list, based on the command-line arguments.
-    3.Error Handling: If errors occur during operations, the program prints them to standard error output and exits. 
-    4.User Input: If no to-do is directly specified for the add operation, the program reads the to-do item from standard input. 
+    1. Flag Handling: Utilizes the flag package to parse command-line arguments. These flags include adding a new to-do (add), marking a to-do as completed (complete), deleting a to-do (del), and listing all to-dos (list).
+    2. To-Do Operations: Performs different operations on to-dos, such as add, complete, delete, or list, based on the command-line arguments.
+    3. Error Handling: If errors occur during operations, the program prints them to standard error output and exits. 
+    4. User Input: If no to-do is directly specified for the add operation, the program reads the to-do item from standard input. 
 
 ### Process <br/>
-    1.Parses command-line arguments. 
-    2.Loads the to-do file. 
-    3.Executes the corresponding to-do operation based on the command-line arguments. 
-    4.Handles user input. 
-    5.Saves changes to the to-do file.
+    1. Parses command-line arguments. 
+    2. Loads the to-do file. 
+    3. Executes the corresponding to-do operation based on the command-line arguments. 
+    4. Handles user input. 
+    5. Saves changes to the to-do file.
 
 ## todo.go <br/>
 
 ### Features <br/>
-    1.To-Do Management: Provides a Todos structure to manage a list of to-do items. 
-    2.CRUD Operations: Adds new to-dos, marks them as completed, deletes to-dos, and lists all to-dos. 
-    3.Persistence: Saves to-do list to a file and loads from it. 
-    4.Formatted Output: Uses the simpletable package for formatted output of the to-do list.
+    1. To-Do Management: Provides a Todos structure to manage a list of to-do items. 
+    2. CRUD Operations: Adds new to-dos, marks them as completed, deletes to-dos, and lists all to-dos. 
+    3. Persistence: Saves to-do list to a file and loads from it. 
+    4. Formatted Output: Uses the simpletable package for formatted output of the to-do list.
 
 ### Process <br/>
-    1.Adds, marks as complete, and deletes to-do items. 
-    2.Loads and saves to-do data to/from a file.
-    3.Formats and outputs the list of to-dos. 
+    1. Adds, marks as complete, and deletes to-do items. 
+    2. Loads and saves to-do data to/from a file.
+    3. Formats and outputs the list of to-dos. 
 
 
 ## This is how the TODO table shows
