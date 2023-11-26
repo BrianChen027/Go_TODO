@@ -1,6 +1,16 @@
 
 # This the the TODO list using GO
 
+This Go program is a to-do application designed to manage tasks, featuring functionalities like adding, completing, deleting, and listing to-dos. The program is split into two main files: **main.go** and **todo.go**.
+
+### main.go
+Features
+    1.Flag Handling: Utilizes the flag package to parse command-line arguments. These flags include adding a new to-do (add), marking a to-do as completed (complete), deleting a to-do (del), and listing all to-dos (list).
+    2.
+    3.
+    4.
+
+
 ## This is how the TODO table shows
 <img width="816" alt="截圖 2023-11-24 下午4 02 09" src="https://github.com/BrianChen027/Go_TODO/assets/97871497/1c4f7805-614e-4c4d-a334-d92c05299797">
 
