@@ -2,6 +2,7 @@
 # This the the TODO list using GO
 
 This Go program is a to-do application designed to manage tasks, featuring functionalities like adding, completing, deleting, and listing to-dos. The program is split into two main files: **main.go** and **todo.go**.
+         ![截圖 2023-11-28 上午2 14 34](https://github.com/BrianChen027/Go_TODO/assets/97871497/1c13252e-85f4-472a-94ed-6882ceacc9cb)
 
 ## main.go
 ### Features <br/>
